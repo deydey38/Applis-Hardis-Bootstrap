@@ -1,0 +1,100 @@
+body{
+  margin: 0;
+}
+
+h1{
+  text-align: center;
+}
+
+header h1:last-of-type{
+  margin-bottom: 20px;
+}
+
+header{
+  background-image: url("../Photo/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 190px;
+  max-width:440px;
+  width: 100vw;
+  height:50vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contenu{
+  --padding-top: 40px;
+  text-align: center;
+  display: block;
+  font-size: 20px;
+}
+
+a:hover{
+  color:#164463;
+  text-decoration:none;
+}
+
+.row{
+  width:100%;
+  height: 300px;
+}
+
+.choix{
+  display: inline-grid;
+  height: 100%;
+  width:25%;
+  max-width: 300px;
+}
+
+.choix a {
+  text-decoration: none;
+  color:black;
+}
+
+.choix a:hover{
+  color:black;
+}
+
+.choix1{
+  background-image: url("../Photo/client.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 7%;
+}
+
+.choix2{
+  background-image: url("../Photo/collabo.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 7%;
+}
+
+.choix3{
+  background-image: url("../Photo/cds.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text{
+  text-align: center;
+  opacity:1;
+  background: rgba(226, 239, 248, 0.6);
+  width: 100%;
+  height: 280px;
+  padding-top:20px;
+}
+
+.text p{
+  padding-top:75px;
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #114e6f;
+  letter-spacing: 4px;
+  font-family: Gill Sans extrabold, century gothic, sans-serif;
+}
