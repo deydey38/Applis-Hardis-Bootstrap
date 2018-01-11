@@ -280,7 +280,7 @@ spinner.spin(spinner_div);
 				}
   });
 
-  $('.export').hover(
+/*  $('.export').hover(
       function() {
           var text = $(this).text();
           $(this).data('initialText', text);
@@ -289,5 +289,5 @@ spinner.spin(spinner_div);
       function() {
           $(this).text($(this).data('initialText'));
       }
-  );
+  );*/
 }

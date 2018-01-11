@@ -43,7 +43,7 @@ h1{
 
 .test{
   display: inline;
-  margin-bottom: 10px;
+  //margin-bottom: 10px;
 }
 
 
@@ -66,6 +66,10 @@ h1{
   margin-bottom : 10px;
   padding-bottom : 10px;
 
+}
+
+.CDS table{
+  margin-top: 10px;
 }
 
 .CDS1 .slide, .CDS2 .slide{
@@ -229,12 +233,11 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 .exportAll{
-  color: #007bff;
+  //color: #007bff;
   font-size: 20px;
   padding-left: 10px;
 }
 
 .export:hover{
   text-decoration: none;
-  color: #007bff;
 }
