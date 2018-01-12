@@ -39,6 +39,7 @@
 	<script>
 
 		var hidden, visibilityChange, fcis;
+		var ciModif = 'undefined';
 		var nomOrg = 'undefined';
 		var nomCI = 'undefined';
 		var cds = 'undefined';
@@ -237,7 +238,7 @@
 			        </button>
 			      </div>
 			      <div class="modal-body">
-							<form id="formModif">
+							<form id="formModif" autocomplete="off">
 							  <div class="form-group">
 							    <input type="text" class="form-control" id="inputModif" placeholder="Nouveau nom d'utilisation" autofocus>
 							  </div>

@@ -499,6 +499,7 @@ function chargementPageCI(dataObjFcis, dataObjLnk){
 	}
   $(".pencil").click(function(){
     var ci = $(this).parent().next("td").text();
+    ciModif=ci;
     $("#exampleModalLabel").text("Modifier CI "+ci);
   });
 
