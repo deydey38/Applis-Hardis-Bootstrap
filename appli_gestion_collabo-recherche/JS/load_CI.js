@@ -362,7 +362,7 @@ function chargementPageCI(dataObjFcis, dataObjLnk, no){
 
 	var table_db= document.createElement('table');
   table_db.className= 'table';
-  $(".table").addClass("table table-hover table-bordered");
+  $(table_db).addClass("table table-hover table-bordered");
 	table_db.id= 'table_db_'+currentIndex;
 	div_table.append(table_db);
 
@@ -405,8 +405,7 @@ function chargementPageCI(dataObjFcis, dataObjLnk, no){
 
 	var table_vm= document.createElement('table');
   table_vm.className= 'table';
-  $(".table").addClass("table table-hover table-bordered");
-	table_vm.className= 'table';
+  $(table_vm).addClass("table table-hover table-bordered");
 	table_vm.id= 'table_vm_'+currentIndex;
 	div_table_vm.append(table_vm);
 
